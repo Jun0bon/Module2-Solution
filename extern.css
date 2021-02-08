@@ -1,0 +1,300 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align:center; 
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-family: Cursive;
+}
+
+p {
+  position: relative;
+  top:-9px;
+  margin-top: 1px;
+ }
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop response **********/
+
+@media (min-width: 992px) {
+
+  #p1 {
+    float:right;
+    position: relative;
+    bottom:15.5px;
+    left:14.5px;
+    text-align: center;
+    border: 2.5px solid black;
+    background-color: #E59393;
+    width: 40%;
+    height: 32px;
+    margin-left: 68%; 
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 120%;
+    color: black;
+}
+
+#p2{
+    float:right;
+    position: relative;
+    bottom: 15.5px;
+    left:14.5px;
+    text-align: center;
+    border: 2.5px solid black;
+    background-color: #C30B0B;
+    width: 40%;
+    height: 32px;
+    margin-left: 68%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 120%;
+    color: white;
+}
+
+#p3{
+    float:right;
+    position: relative;
+    bottom: 15.5px;
+    left:14.5px;
+    text-align: center;
+    border: 2.5px solid black;
+    background-color: #E9DB9D;
+    width: 40%;
+    height: 32px;
+    margin-left: 68%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 120%;
+    color: black;
+}
+
+  .col-lg-4 {
+    position: relative;
+  	text-align: left;
+  	border: 2.5px solid black;
+    float: left;
+    height: 160px;
+    width: 30%;
+    margin-top: 12px;
+    margin-right: 8px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 83%;
+    font-family: cursive;
+    color: black;
+    padding: 12px;
+    background-color: gray;
+  }
+} 
+
+
+/********** Tablet responsive **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#p1 {
+    float:right;
+    position: relative;
+    bottom:15.5px;
+    left:14.5px;
+    text-align: center;
+    border: 2.5px solid black;
+    background-color: #E59393;
+    width: 40%;
+    height: 30px;
+    margin-left: 68%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 120%;
+    color: black;
+}
+
+#p2{
+    float:right;
+    position: relative;
+    bottom: 15.5px;
+    left:14.5px;
+    text-align: center;
+    border: 2.5px solid black;
+    background-color: #C30B0B;
+    width: 40%;
+    height: 30px;
+    margin-left: 68%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 120%;
+    color: white;
+}
+
+#p3{
+    float:right;
+    position: relative;
+    bottom: 15.5px;
+    left:14.5px;
+    text-align: center;
+    border: 2.5px solid black;
+    background-color: #E9DB9D;
+    width: 19%;
+    height: 30px;
+    margin-left: 85%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 120%;
+    color: black;
+}
+
+  .col-md-6 {
+    position: relative;
+    text-align: left;
+    border: 2.5px solid black;
+    float: left;
+    height: 150px;
+    width: 46.3%;
+    margin-top: 12px;
+    margin-right: 8px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 85%;
+    font-family: cursive;
+    color: black;
+    padding: 12px;
+    background-color: gray;
+  
+  }
+
+  .col-md-12 {
+    position: relative;
+    text-align: left;
+    border: 2.5px solid black;
+    float: left;
+    height: 150px;
+    width: 95.5%;
+    margin-top: 12px;
+    margin-right: 8px;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 87%;
+    font-family: cursive;
+    color: black;
+    padding: 12px;
+    background-color: gray;
+  
+  }
+}
+
+
+/********** Mobile responsive **********/
+@media (max-width: 767px) {
+
+  h1 {
+  text-align:center; 
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-family: Cursive;
+}
+
+  #p1 {
+    float:right;
+    position: relative;
+    bottom:15.5px;
+    left:14.5px;
+    text-align: center;
+    border: 2.5px solid black;
+    background-color: #E59393;
+    width: 40%;
+    height: 30px;
+    margin-left: 68%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 120%;
+    color: black;
+}
+
+#p2{
+    float:right;
+    position: relative;
+    bottom: 15.5px;
+    left:14.5px;
+    text-align: center;
+    border: 2.5px solid black;
+    background-color: #C30B0B;
+    width: 40%;
+    height: 30px;
+    margin-left: 68%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 120%;
+    color: white;
+}
+
+#p3{
+    float:right;
+    position: relative;
+    bottom: 15.5px;
+    left:14.5px;
+    text-align: center;
+    border: 2.5px solid black;
+    background-color: #E9DB9D;
+    width: 40%;
+    height: 30px;
+    margin-left: 68%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 120%;
+    color: black;
+}
+  .col-xs-12 {
+    position: relative;
+    text-align: left;
+    border: 2.5px solid black;
+    float: left;
+    height: 160px;
+    width: 80%;
+    margin-top: 12px;
+    margin-right: 8px;
+    margin-left: 10%;
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 78%;
+    font-family: cursive;
+    color: black;
+    padding: 12px;
+    background-color: gray;
+  }
+
+}
